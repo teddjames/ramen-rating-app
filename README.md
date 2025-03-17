@@ -13,6 +13,8 @@ Tedd James
 - **Clean Code Structure:** Organize your JavaScript, HTML, and CSS in a maintainable way.
 - **Git Basics:** Practice version control with Git as you develop and update your project.
 
+## Languages used
+- **HTML, CSS and JS
 ## Getting Started
 
 ### Prerequisites
