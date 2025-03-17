@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  font-size: 2.5em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+/* Ramen Menu */
+#ramen-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto;
+  max-width: 900px;
+  padding: 10px;
+}
+
+#ramen-menu img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+#ramen-menu img:hover {
+  transform: scale(1.1);
+  border-color: #ff7043;
+}
+
+/* Ramen Detail */
+#ramen-detail {
+  background: #fff;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#ramen-detail img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#ramen-detail h2,
+#ramen-detail h3 {
+  margin: 10px 0;
+}
+
+/* New Ramen Form */
+form#new-ramen {
+  background: #fff;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form#new-ramen h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+form#new-ramen div {
+  mar
