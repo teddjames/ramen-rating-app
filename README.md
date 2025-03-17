@@ -14,7 +14,7 @@ Tedd James
 - **Git Basics:** Practice version control with Git as you develop and update your project.
 
 ## Languages used
-- **HTML, CSS and JS
+- HTML, CSS and JS
 ## Getting Started
 
 ### Prerequisites
